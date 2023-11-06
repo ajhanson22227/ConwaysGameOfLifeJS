@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="styles.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<div id="side-panel">
+		<div id="title-bar">
+			<h1 id="title">Conway's Game of Life</h1>
+			<div class="info-text">Conway's Game of Life involves cells that live, die, or become reborn through a few different scenarios.</div>
+			<br>
+			<div class="info-text">These scenarios are:
+				<ul>
+					<li>A Cell dies if it has 0 or 1 neighbor, it starves</li>
+					<li>A Cell dies if it has 4 or more neighbors, it's over-populated</li>
+					<li>A Cell is reborn if it has exactly 3 living neighbors, it's magic</li>
+				</ul>
+				While the game is not running, feel free to edit the cells by clicking them.
+			</div>
+		</div>
+		<div id="start-btn"></div>
+	</div>
+
+	<div id="grid-container"></div>
+	<script src="scripts.js"></script>
+</body>
+</html>
